@@ -1,3 +1,4 @@
 {
-    "codespaces.enableSuspendOnIdleConnection": false
+    "codespaces.enableSuspendOnIdleConnection": false,
+    "liveServer.settings.port": 5501
 }
