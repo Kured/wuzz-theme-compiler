@@ -10263,5 +10263,199 @@ progress {
     display: none !important;
   }
 }
+/* ----------------- Button Shadow Color --------------------- */
+.btn-elavation-primary:active {
+  box-shadow: 0 12px 24px -8px rgba(255, 44, 95, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-secondary:active {
+  box-shadow: 0 12px 24px -8px rgba(108, 117, 125, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-success:active {
+  box-shadow: 0 12px 24px -8px rgba(107, 206, 0, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-info:active {
+  box-shadow: 0 12px 24px -8px rgba(13, 110, 253, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-warning:active {
+  box-shadow: 0 12px 24px -8px rgba(255, 193, 7, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-danger:active {
+  box-shadow: 0 12px 24px -8px rgba(255, 41, 62, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-light:active {
+  box-shadow: 0 12px 24px -8px rgba(255, 255, 255, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-dark:active {
+  box-shadow: 0 12px 24px -8px rgba(16, 21, 32, 0.5) !important;
+  transform: translateY(-3px);
+}
+
+.btn-elavation-primary {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn-elavation-secondary {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn-elavation-success {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn-elavation-info {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn-elavation-warning {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn-elavation-danger {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn-elavation-light {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn-elavation-dark {
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+/* ----------------- Elavation --------------------- */
+.elevation-color-primary {
+  box-shadow: 0 16px 24px -8px rgba(255, 44, 95, 0.5) !important;
+}
+
+.elevation-color-secondary {
+  box-shadow: 0 16px 24px -8px rgba(108, 117, 125, 0.5) !important;
+}
+
+.elevation-color-success {
+  box-shadow: 0 16px 24px -8px rgba(107, 206, 0, 0.5) !important;
+}
+
+.elevation-color-info {
+  box-shadow: 0 16px 24px -8px rgba(13, 110, 253, 0.5) !important;
+}
+
+.elevation-color-warning {
+  box-shadow: 0 16px 24px -8px rgba(255, 193, 7, 0.5) !important;
+}
+
+.elevation-color-danger {
+  box-shadow: 0 16px 24px -8px rgba(255, 41, 62, 0.5) !important;
+}
+
+.elevation-color-light {
+  box-shadow: 0 16px 24px -8px rgba(255, 255, 255, 0.5) !important;
+}
+
+.elevation-color-dark {
+  box-shadow: 0 16px 24px -8px rgba(16, 21, 32, 0.5) !important;
+}
+
+/* ----------------- Press Shadow --------------------- */
+.btn-press-primary:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-secondary:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-success:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-info:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-warning:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-danger:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-light:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-dark:active {
+  box-shadow: none !important;
+  transform: translateY(3px);
+}
+
+.btn-press-primary {
+  box-shadow: 0 12px 24px -8px rgba(255, 44, 95, 0.5) !important;
+  transition: all 0.15s ease;
+}
+
+.btn-press-secondary {
+  box-shadow: 0 12px 24px -8px rgba(108, 117, 125, 0.5) !important;
+  transition: all 0.15s ease;
+}
+
+.btn-press-success {
+  box-shadow: 0 12px 24px -8px rgba(107, 206, 0, 0.5) !important;
+  transition: all 0.15s ease;
+}
+
+.btn-press-info {
+  box-shadow: 0 12px 24px -8px rgba(13, 110, 253, 0.5) !important;
+  transition: all 0.15s ease;
+}
+
+.btn-press-warning {
+  box-shadow: 0 12px 24px -8px rgba(255, 193, 7, 0.5) !important;
+  transition: all 0.15s ease;
+}
+
+.btn-press-danger {
+  box-shadow: 0 12px 24px -8px rgba(255, 41, 62, 0.5) !important;
+  transition: all 0.15s ease;
+}
+
+.btn-press-light {
+  box-shadow: 0 12px 24px -8px rgba(255, 255, 255, 0.5) !important;
+  transition: all 0.15s ease;
+}
+
+.btn-press-dark {
+  box-shadow: 0 12px 24px -8px rgba(16, 21, 32, 0.5) !important;
+  transition: all 0.15s ease;
+}
 
 /*# sourceMappingURL=wuzzi.css.map */
