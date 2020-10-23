@@ -2,7 +2,7 @@
 // Bootstrap and its default variables
 @import "./node_modules/bootstrap/scss/bootstrap";
 
-// Button Shadow Color
+// button real elevation
 @each $color, $value in $theme-colors {
     .btn-reveal-#{$color}:active { box-shadow: 0 12px 24px -8px rgba( $value, .5 )!important; transform:translateY(-3px); }
 }
@@ -10,15 +10,15 @@
     .btn-reveal-#{$color} { box-shadow:none; transition: all 0.15s ease; }
 }
  
-// Elavation
+// elavation
 @each $color, $value in $theme-colors {
     .elevation-#{$color} { box-shadow: 0 16px 24px -8px rgba( $value, .5 )!important; }
 }
 
-// Press Shadow
+// button elevation
 @each $color, $value in $theme-colors {
-    .btn-elavation-#{$color}:active { box-shadow:none!important; transform:translateY(3px); }
+    .btn-elevation-#{$color}:active { box-shadow:none!important; transform:translateY(3px); }
 }
 @each $color, $value in $theme-colors {
-    .btn-elavation-#{$color} { box-shadow: 0 12px 24px -8px rgba( $value, .5 )!important; transition: all 0.15s ease; }
+    .btn-elevation-#{$color} { box-shadow: 0 12px 24px -8px rgba( $value, .5 )!important; transition: all 0.15s ease; }
 }
