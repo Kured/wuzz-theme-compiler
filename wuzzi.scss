@@ -2,23 +2,23 @@
 // Bootstrap and its default variables
 @import "./node_modules/bootstrap/scss/bootstrap";
 
-/* ----------------- Button Shadow Color --------------------- */
+// Button Shadow Color
 @each $color, $value in $theme-colors {
-    .btn-elavation-#{$color}:active { box-shadow: 0 12px 24px -8px rgba( $value, .5 )!important; transform:translateY(-3px); }
+    .btn-reveal-#{$color}:active { box-shadow: 0 12px 24px -8px rgba( $value, .5 )!important; transform:translateY(-3px); }
 }
 @each $color, $value in $theme-colors {
-    .btn-elavation-#{$color} { box-shadow:none; transition: all 0.15s ease; }
+    .btn-reveal-#{$color} { box-shadow:none; transition: all 0.15s ease; }
 }
  
-/* ----------------- Elavation --------------------- */
+// Elavation
 @each $color, $value in $theme-colors {
     .elevation-color-#{$color} { box-shadow: 0 16px 24px -8px rgba( $value, .5 )!important; }
 }
 
-/* ----------------- Press Shadow --------------------- */
+// Press Shadow
 @each $color, $value in $theme-colors {
-    .btn-press-#{$color}:active { box-shadow:none!important; transform:translateY(3px); }
+    .btn-elavation-#{$color}:active { box-shadow:none!important; transform:translateY(3px); }
 }
 @each $color, $value in $theme-colors {
-    .btn-press-#{$color} { box-shadow: 0 12px 24px -8px rgba( $value, .5 )!important; transition: all 0.15s ease; }
+    .btn-elavation-#{$color} { box-shadow: 0 12px 24px -8px rgba( $value, .5 )!important; transition: all 0.15s ease; }
 }

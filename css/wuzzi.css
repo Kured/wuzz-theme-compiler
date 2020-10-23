@@ -10263,88 +10263,86 @@ progress {
     display: none !important;
   }
 }
-/* ----------------- Button Shadow Color --------------------- */
-.btn-elavation-primary:active {
+.btn-reveal-primary:active {
   box-shadow: 0 12px 24px -8px rgba(255, 44, 95, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-secondary:active {
+.btn-reveal-secondary:active {
   box-shadow: 0 12px 24px -8px rgba(108, 117, 125, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-success:active {
+.btn-reveal-success:active {
   box-shadow: 0 12px 24px -8px rgba(107, 206, 0, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-info:active {
+.btn-reveal-info:active {
   box-shadow: 0 12px 24px -8px rgba(13, 110, 253, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-warning:active {
+.btn-reveal-warning:active {
   box-shadow: 0 12px 24px -8px rgba(255, 193, 7, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-danger:active {
+.btn-reveal-danger:active {
   box-shadow: 0 12px 24px -8px rgba(255, 41, 62, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-light:active {
+.btn-reveal-light:active {
   box-shadow: 0 12px 24px -8px rgba(255, 255, 255, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-dark:active {
+.btn-reveal-dark:active {
   box-shadow: 0 12px 24px -8px rgba(16, 21, 32, 0.5) !important;
   transform: translateY(-3px);
 }
 
-.btn-elavation-primary {
+.btn-reveal-primary {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-.btn-elavation-secondary {
+.btn-reveal-secondary {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-.btn-elavation-success {
+.btn-reveal-success {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-.btn-elavation-info {
+.btn-reveal-info {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-.btn-elavation-warning {
+.btn-reveal-warning {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-.btn-elavation-danger {
+.btn-reveal-danger {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-.btn-elavation-light {
+.btn-reveal-light {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-.btn-elavation-dark {
+.btn-reveal-dark {
   box-shadow: none;
   transition: all 0.15s ease;
 }
 
-/* ----------------- Elavation --------------------- */
 .elevation-color-primary {
   box-shadow: 0 16px 24px -8px rgba(255, 44, 95, 0.5) !important;
 }
@@ -10377,83 +10375,82 @@ progress {
   box-shadow: 0 16px 24px -8px rgba(16, 21, 32, 0.5) !important;
 }
 
-/* ----------------- Press Shadow --------------------- */
-.btn-press-primary:active {
+.btn-elavation-primary:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-secondary:active {
+.btn-elavation-secondary:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-success:active {
+.btn-elavation-success:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-info:active {
+.btn-elavation-info:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-warning:active {
+.btn-elavation-warning:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-danger:active {
+.btn-elavation-danger:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-light:active {
+.btn-elavation-light:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-dark:active {
+.btn-elavation-dark:active {
   box-shadow: none !important;
   transform: translateY(3px);
 }
 
-.btn-press-primary {
+.btn-elavation-primary {
   box-shadow: 0 12px 24px -8px rgba(255, 44, 95, 0.5) !important;
   transition: all 0.15s ease;
 }
 
-.btn-press-secondary {
+.btn-elavation-secondary {
   box-shadow: 0 12px 24px -8px rgba(108, 117, 125, 0.5) !important;
   transition: all 0.15s ease;
 }
 
-.btn-press-success {
+.btn-elavation-success {
   box-shadow: 0 12px 24px -8px rgba(107, 206, 0, 0.5) !important;
   transition: all 0.15s ease;
 }
 
-.btn-press-info {
+.btn-elavation-info {
   box-shadow: 0 12px 24px -8px rgba(13, 110, 253, 0.5) !important;
   transition: all 0.15s ease;
 }
 
-.btn-press-warning {
+.btn-elavation-warning {
   box-shadow: 0 12px 24px -8px rgba(255, 193, 7, 0.5) !important;
   transition: all 0.15s ease;
 }
 
-.btn-press-danger {
+.btn-elavation-danger {
   box-shadow: 0 12px 24px -8px rgba(255, 41, 62, 0.5) !important;
   transition: all 0.15s ease;
 }
 
-.btn-press-light {
+.btn-elavation-light {
   box-shadow: 0 12px 24px -8px rgba(255, 255, 255, 0.5) !important;
   transition: all 0.15s ease;
 }
 
-.btn-press-dark {
+.btn-elavation-dark {
   box-shadow: 0 12px 24px -8px rgba(16, 21, 32, 0.5) !important;
   transition: all 0.15s ease;
 }
