@@ -5725,7 +5725,7 @@ progress {
   display: inline-block;
   width: 2rem;
   height: 2rem;
-  vertical-align: text-bottom;
+  vertical-align: middle;
   border: 0.25em solid currentColor;
   border-right-color: transparent;
   border-radius: 50%;
@@ -10462,7 +10462,7 @@ progress {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   padding: 0;
 }
 
@@ -10473,12 +10473,12 @@ progress {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2.5rem;
+  border-radius: 2rem;
   padding: 0;
 }
 
 .btn-fab-effect {
-  transition: border-radius 0.2s ease;
+  transition: border-radius 0.25s ease;
 }
 
 .btn-fab-effect:hover {
