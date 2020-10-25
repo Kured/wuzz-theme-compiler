@@ -31,7 +31,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     padding: 0;
   }
   
@@ -42,12 +42,12 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2.5rem;
+    border-radius: 2rem;
     padding: 0;
   }
   
   .btn-fab-effect {
-    transition: border-radius 0.2s ease;
+    transition: border-radius 0.25s ease;
   }
   .btn-fab-effect:hover {
     border-radius: 0.4rem;
