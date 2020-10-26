@@ -10530,4 +10530,8 @@ progress {
   border-width: 2px !important;
 }
 
+.search-outline:focus, .search-outline-lg:focus, .search-outline-sm:focus {
+  border-color: #ffffff;
+}
+
 /*# sourceMappingURL=wuzzi.css.map */
