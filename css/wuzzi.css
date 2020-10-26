@@ -10485,4 +10485,49 @@ progress {
   border-radius: 0.4rem;
 }
 
+.input-icon, .input-icon-sm, .input-icon-lg {
+  background: transparent;
+  right: 0px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-icon {
+  margin-right: 6px;
+  height: 38px;
+  width: 38px;
+}
+
+.input-icon-sm {
+  margin-right: 6px;
+  height: 31px;
+  width: 31px;
+}
+
+.input-icon-lg {
+  margin-right: 8px;
+  height: 48px;
+  width: 48px;
+}
+
+.search-outline-sm {
+  padding: 0 2.5rem 0 0.75rem !important;
+  background: transparent !important;
+  border-width: 2px !important;
+}
+
+.search-outline {
+  padding: 0.25rem 3rem 0.25rem 1rem;
+  background: transparent !important;
+  border-width: 2px !important;
+}
+
+.search-outline-lg {
+  padding: 0.25rem 3.5rem 0.25rem 1.25rem !important;
+  background: transparent !important;
+  border-width: 2px !important;
+}
+
 /*# sourceMappingURL=wuzzi.css.map */
