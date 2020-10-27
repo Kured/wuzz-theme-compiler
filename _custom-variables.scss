@@ -1,0 +1,54 @@
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default; //changed color
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #101520 !default; //changed color
+$black:    #000 !default; //changed color
+
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #ff293e !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+$wz-ruby: #ff2c5f !default; //added color
+$wz-lime: #6BCE00 !default; //added color
+
+$colors: (
+  "wz-ruby":    $wz-ruby,
+  "wz-lime":    $wz-lime
+) !default;
+
+$primary:       $wz-ruby !default;
+$secondary:     $gray-600 !default;
+$success:       $wz-lime !default;
+$info:          $blue !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $white !default;
+$dark:          $gray-900 !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+
+$form-switch-width-lg:               2.75em !default;
+$form-switch-height-lg:              1.5em !default;
