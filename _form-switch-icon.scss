@@ -1,5 +1,6 @@
 .switch-icon-theme {
     background-image: escape-svg($form-switch-bg-image)!important;
+    transition: background-image 0.15s ease;
     &:focus {
       background-image: escape-svg($form-switch-focus-bg-image)!important;
     }
@@ -13,6 +14,7 @@
   }
 .switch-icon-check {
     background-image: escape-svg($form-switch-icon-check-bg)!important;
+    transition: background-image 0.15s ease;
     &:focus {
       background-image: escape-svg($form-switch-icon-check-focus)!important;
     }
