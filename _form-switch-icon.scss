@@ -1,0 +1,26 @@
+.switch-icon-theme {
+    background-image: escape-svg($form-switch-icon-theme-bg)!important;
+    &:focus {
+      background-image: escape-svg($form-switch-icon-theme-focus)!important;
+    }
+    &:checked {
+      @if $enable-gradients {
+        background-image: escape-svg($form-switch-icon-theme-checked)!important, var(--bs-gradient);
+      } @else {
+        background-image: escape-svg($form-switch-icon-theme-checked)!important;
+      }
+    }
+  }
+.switch-icon-check {
+    background-image: escape-svg($form-switch-icon-check-bg)!important;
+    &:focus {
+      background-image: escape-svg($form-switch-icon-check-focus)!important;
+    }
+    &:checked {
+      @if $enable-gradients {
+        background-image: escape-svg($form-switch-icon-check-checked)!important, var(--bs-gradient);
+      } @else {
+        background-image: escape-svg($form-switch-icon-check-checked)!important;
+      }
+    }
+  }

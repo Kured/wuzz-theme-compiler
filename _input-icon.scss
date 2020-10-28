@@ -1,0 +1,23 @@
+.input-icon, .input-icon-sm, .input-icon-lg  {
+    background: transparent;
+    right: 0px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .input-icon {
+    margin-right:6px;
+    height: 38px;
+    width: 38px;
+  }
+  .input-icon-sm {
+    margin-right:6px;
+    height: 31px;
+    width: 31px;
+  }
+  .input-icon-lg {
+    margin-right:8px;
+    height: 48px;
+    width: 48px;
+  }
