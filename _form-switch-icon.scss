@@ -5,7 +5,7 @@
     }
     &:checked {
       @if $enable-gradients {
-        background-image: escape-svg($form-switch-icon-theme-checked)!important, var(--bs-gradient);
+        background-image: escape-svg($form-switch-icon-theme-checked), var(--bs-gradient)!important;
       } @else {
         background-image: escape-svg($form-switch-icon-theme-checked)!important;
       }
@@ -18,7 +18,7 @@
     }
     &:checked {
       @if $enable-gradients {
-        background-image: escape-svg($form-switch-icon-check-checked)!important, var(--bs-gradient);
+        background-image: escape-svg($form-switch-icon-check-checked), var(--bs-gradient)!important;
       } @else {
         background-image: escape-svg($form-switch-icon-check-checked)!important;
       }
