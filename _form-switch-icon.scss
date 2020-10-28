@@ -1,7 +1,7 @@
 .switch-icon-theme {
-    background-image: escape-svg($form-switch-icon-theme-bg)!important;
+    background-image: escape-svg($form-switch-bg-image)!important;
     &:focus {
-      background-image: escape-svg($form-switch-icon-theme-focus)!important;
+      background-image: escape-svg($form-switch-focus-bg-image)!important;
     }
     &:checked {
       @if $enable-gradients {
