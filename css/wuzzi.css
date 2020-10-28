@@ -10296,7 +10296,7 @@ progress {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffacc0'/%3e%3c/svg%3e") !important;
 }
 .switch-icon-theme:checked {
-  background-image: url('data:image/svg+xml,%3csvg fill="%23fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M13 22C16.0845 22 18.9015 20.5967 20.7679 18.2972C21.0439 17.957 20.7429 17.4601 20.3162 17.5413C15.4645 18.4653 11.0091 14.7454 11.0091 9.84781C11.0091 7.02664 12.5193 4.43238 14.9739 3.03555C15.3522 2.82023 15.2571 2.2466 14.8271 2.16719C14.2244 2.05605 13.6129 2.00009 13 2C7.48012 2 3 6.47309 3 12C3 17.5199 7.47309 22 13 22Z"/%3e%3c/svg%3e') !important;
+  background-image: url('data:image/svg+xml,%3csvg fill="%23fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M12 21C14.776 21 17.3114 19.737 18.9911 17.6675C19.2396 17.3613 18.9686 16.9141 18.5846 16.9872C14.2181 17.8188 10.2082 14.4709 10.2082 10.063C10.2082 7.52398 11.5674 5.18914 13.7765 3.93199C14.117 3.73821 14.0314 3.22194 13.6444 3.15047C13.102 3.05045 12.5516 3.00008 12 3C7.03211 3 3 7.02578 3 12C3 16.9679 7.02578 21 12 21Z"/%3e%3c/svg%3e') !important;
 }
 
 .switch-icon-check {
