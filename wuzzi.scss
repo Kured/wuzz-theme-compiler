@@ -4,11 +4,8 @@
 @import "custom-variables";
 
 // Custom Components
-@import "animations";
-@import "form-switch-lg";
-@import "form-switch-icon";
-@import "input-icon";
-@import "input-search";
+@import "./wuzzi/addons/forms/form-addons";
+@import "./wuzzi/addons/animations/animations";
+@import "./wuzzi/addons/style/style-addons";
+@import "./wuzzi/addons/buttons/button-addons";
 @import "utilities-extra";
-@import "elevation";
-@import "button-fab";

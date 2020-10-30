@@ -1,0 +1,14 @@
+.form-control-color-circle {
+  -webkit-appearance: none;
+	border: none;
+}
+
+.form-control-color-circle::-moz-color-swatch {
+  border-radius: 100px;
+}
+.form-control-color-circle::-webkit-color-swatch {
+  border-radius: 100px;
+}
+.form-control-color-circle::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
