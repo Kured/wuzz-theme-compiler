@@ -10263,6 +10263,27 @@ progress {
     display: none !important;
   }
 }
+.fade-in {
+  -webkit-animation: fade-in 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .form-check-label-lg {
   vertical-align: middle;
 }
@@ -10356,6 +10377,14 @@ progress {
 
 .search-outline:focus, .search-outline-lg:focus, .search-outline-sm:focus {
   border-color: #ffffff;
+}
+
+.mw-0 {
+  min-width: 0% !important;
+}
+
+.border-transparent {
+  border-color: #fff0 !important;
 }
 
 .btn-reveal-primary:active {
