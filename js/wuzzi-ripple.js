@@ -2,8 +2,9 @@ window.onload = function() {
     let rippleElements = document.getElementsByClassName("ripples");
     for(var i = 0; i < rippleElements.length; i++) {
         rippleElements[i].onclick = function(e) {
-          let X = e.pageX - this.offsetLeft - 3;
-          let Y = e.pageY - this.offsetTop - 3;
+          let clienttBounds = this.getBoundingClientRect();
+          let X = clienttBounds.left + e.layerX;
+          let Y = clienttBounds.top + e.layerY;
           let rippleDiv = document.createElement("div");
           rippleDiv.classList.add('ripple');
           rippleDiv.setAttribute("style","top:"+Y+"px; left:"+X+"px;");
@@ -12,7 +13,7 @@ window.onload = function() {
           this.appendChild(rippleDiv);
           setTimeout(function(){
             rippleDiv.parentElement.removeChild(rippleDiv);
-          }, 11000);
+          }, 1100);
     }
   }
   }
