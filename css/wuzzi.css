@@ -10680,4 +10680,8 @@ progress {
   border-color: #fff0 !important;
 }
 
+.outline-none {
+  outline: none !important;
+}
+
 /*# sourceMappingURL=wuzzi.css.map */
