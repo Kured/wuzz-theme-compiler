@@ -10410,8 +10410,16 @@ progress {
   transition: background-color 0.15s ease !important;
 }
 
+.transition-ease-border {
+  transition: border 0.15s ease !important;
+}
+
 .transition-ease-transform {
   transition: transform 0.15s ease !important;
+}
+
+.transition-ease-shadow {
+  transition: box-shadow 0.15s ease !important;
 }
 
 .btn-reveal-primary:active {
