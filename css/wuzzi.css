@@ -10631,6 +10631,8 @@ progress {
   height: 6px;
   animation: rippleEffect 1s 1;
   opacity: 0;
+  user-select: none;
+  pointer-events: none;
 }
 
 @keyframes rippleEffect {
