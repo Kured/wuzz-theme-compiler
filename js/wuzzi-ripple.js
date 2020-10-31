@@ -2,9 +2,8 @@ window.onload = function() {
     let rippleElements = document.getElementsByClassName("ripples");
     for(var i = 0; i < rippleElements.length; i++) {
         rippleElements[i].onclick = function(e) {
-          let clienttBounds = this.getBoundingClientRect();
-          let X = clienttBounds.left + e.layerX;
-          let Y = clienttBounds.top + e.layerY;
+          let X = e.layerX;
+          let Y = e.layerY;
           let rippleDiv = document.createElement("div");
           rippleDiv.classList.add('ripple');
           rippleDiv.setAttribute("style","top:"+Y+"px; left:"+X+"px;");
