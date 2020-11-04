@@ -29,6 +29,29 @@ window._toggleTheme = function(themeMode) {
            element.classList.add("bg-light");
        }     
    }
+
+   // toggle theme secondary (s)
+   $elementsThemeLs = document.querySelectorAll('.bg-lights');
+   $elementsThemeDs = document.querySelectorAll('.bg-darks');
+
+   // Light to Dark secondary
+   if ($elementsThemeLs) {
+       
+       for (let i=0; i<$elementsThemeLs.length; i++) {
+           let element = $elementsThemeLs[i];
+
+           element.classList.remove("bg-lights");
+           element.classList.add("bg-darks");
+       }     
+   }   
+   // Dark to Light secondary
+   if ($elementsThemeDs) {
+       for (let i=0; i<$elementsThemeDs.length; i++) {
+           let element = $elementsThemeDs[i];
+           element.classList.remove("bg-darks");
+           element.classList.add("bg-lights");
+       }     
+   }
    
    // toggle theme text
    $elementsThemeTextL = document.querySelectorAll('.text-light');
@@ -51,7 +74,30 @@ window._toggleTheme = function(themeMode) {
            element.classList.remove("text-dark");
            element.classList.add("text-light");
        }     
-   }      
+   } 
+   
+   // toggle theme text secondary (s)
+   $elementsThemeTextLs = document.querySelectorAll('.text-lights');
+   $elementsThemeTextDs = document.querySelectorAll('.text-darks');
+
+   // Light to Dark secondary
+   if ($elementsThemeTextLs) {
+       
+       for (let i=0; i<$elementsThemeTextLs.length; i++) {
+           let element = $elementsThemeTextLs[i];
+
+           element.classList.remove("text-lights");
+           element.classList.add("text-darks");
+       }     
+   }   
+   // Dark to Light secondary
+   if ($elementsThemeTextDs) {
+       for (let i=0; i<$elementsThemeTextDs.length; i++) {
+           let element = $elementsThemeTextDs[i];
+           element.classList.remove("text-darks");
+           element.classList.add("text-lights");
+       }     
+   }
    
    // Styles update
    if ($elementThemeSetting.className === 'wz-light') {

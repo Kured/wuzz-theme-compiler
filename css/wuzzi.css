@@ -10398,6 +10398,27 @@ progress {
     opacity: 1;
   }
 }
+.fade-out {
+  -webkit-animation: fade-out 0.75s ease-out both;
+  animation: fade-out 0.75s ease-out both;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .transition-ease-all {
   transition: all 0.15s ease !important;
 }
@@ -10696,6 +10717,14 @@ progress {
 
 .outline-none {
   outline: none !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.touch-action-none {
+  touch-action: none;
 }
 
 .z-n1 {
