@@ -93,24 +93,27 @@ $wz-lime-900: shade-color($wz-lime, 8) !default;
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-$border-radius:               .5rem !default; //changed
-$border-radius-sm:            .4rem !default; //changed
-$border-radius-lg:            .65rem !default; //changed
+$body-bg:                   $white !default;
+$body-color:                $gray-900 !default;
 
-$component-active-color:      $white !default;
-$component-active-bg:         $primary !default;
-$input-focus-border-color:    lighten($component-active-bg, 25%) !default;
-$input-btn-border-width:      2px !default;  //changed
+$border-radius:                      .5rem !default; //changed
+$border-radius-sm:                   .4rem !default; //changed
+$border-radius-lg:                   .65rem !default; //changed
+
+$component-active-color:             $white !default;
+$component-active-bg:                $primary !default;
+$input-focus-border-color:           lighten($component-active-bg, 25%) !default;
+$input-btn-border-width:             2px !default;  //changed
 
 // Lightmode Forms
-$form-check-input-bg:                     $body-bg !default;
-$form-check-input-border:                 2px solid rgba(255, 255, 255, 0.25) !default;
+$form-check-input-bg:                $body-bg !default;
+$form-check-input-border:            2px solid rgba(255, 255, 255, 0.25) !default;
 
 $form-switch-width-lg:               2.75em !default;
 $form-switch-height-lg:              1.5em !default;
 
-$form-switch-focus-color:             $input-focus-border-color !default;
-$form-switch-checked-color:           $component-active-color !default;
+$form-switch-focus-color:            $input-focus-border-color !default;
+$form-switch-checked-color:          $component-active-color !default;
 $form-switch-color:                  rgba(0, 0, 0, .25) !default;
 
 

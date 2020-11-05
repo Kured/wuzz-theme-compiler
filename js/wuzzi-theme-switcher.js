@@ -1,7 +1,7 @@
 // Theme Changer
 window._toggleTheme = function(themeMode) {    
 
-    var $elementThemeSetting, $elementsThemeL, $elementsThemeD;
+    var $elementThemeSetting, $elementsThemeL, $elementsThemeD, $elementsThemeLs, $elementsThemeDs;
    
    // check theme not already set to mode
    $elementThemeSetting = document.getElementById("themeSetting");
@@ -98,7 +98,29 @@ window._toggleTheme = function(themeMode) {
            element.classList.add("text-lights");
        }     
    }
-   
+    
+    // toggle theme text secondary (s)
+   $elementsThemeBtnLs = document.querySelectorAll('.btn-lights');
+   $elementsThemeBtnDs = document.querySelectorAll('.btn-darks');
+
+   // Light to Dark secondary
+   if ($elementsThemeBtnLs) {
+       
+       for (let i=0; i<$elementsThemeBtnLs.length; i++) {
+           let element = $elementsThemeBtnLs[i];
+
+           element.classList.remove("btn-lights");
+           element.classList.add("btn-darks");
+       }     
+   }   
+   // Dark to Light secondary
+   if ($elementsThemeBtnDs) {
+       for (let i=0; i<$elementsThemeBtnDs.length; i++) {
+           let element = $elementsThemeBtnDs[i];
+           element.classList.remove("btn-darks");
+           element.classList.add("btn-lights");
+       }     
+   }
    // Styles update
    if ($elementThemeSetting.className === 'wz-light') {
        document.documentElement.style.setProperty('--main-ui', '#0A0C12');
