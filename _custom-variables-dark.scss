@@ -1,0 +1,116 @@
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default; //changed color
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #222938 !default; //changed color #343a40
+$gray-900: #101520 !default; //changed color
+$black:    #000 !default; //changed color
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #ff293e !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+$wz-ruby: #ff2c5f !default; //added color
+$wz-lime: #6BCE00 !default; //added color
+
+$colors: (
+  "wz-ruby":    $wz-ruby,
+  "wz-lime":    $wz-lime
+) !default;
+
+$primary:       $wz-ruby !default;
+$secondary:     $gray-600 !default;
+$success:       $wz-lime !default;
+$info:          $blue !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-900 !default;
+$lights:        $gray-800 !default;
+$dark:          $white !default;
+$darks:         $gray-300 !default;
+
+// Create your own map
+$custom-colors: (
+  "lights":     $lights,
+  "darks":      $darks
+);
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+
+$wz-ruby-100: tint-color($wz-ruby, 8) !default; //added color
+$wz-ruby-200: tint-color($wz-ruby, 6) !default;
+$wz-ruby-300: tint-color($wz-ruby, 4) !default;
+$wz-ruby-400: tint-color($wz-ruby, 2) !default;
+$wz-ruby-500: $wz-ruby !default;
+$wz-ruby-600: shade-color($wz-ruby, 2) !default;
+$wz-ruby-700: shade-color($wz-ruby, 4) !default;
+$wz-ruby-800: shade-color($wz-ruby, 6) !default;
+$wz-ruby-900: shade-color($wz-ruby, 8) !default;
+
+$wz-lime-100: tint-color($wz-lime, 8) !default; //added color
+$wz-lime-200: tint-color($wz-lime, 6) !default;
+$wz-lime-300: tint-color($wz-lime, 4) !default;
+$wz-lime-400: tint-color($wz-lime, 2) !default;
+$wz-lime-500: $wz-lime !default;
+$wz-lime-600: shade-color($wz-lime, 2) !default;
+$wz-lime-700: shade-color($wz-lime, 4) !default;
+$wz-lime-800: shade-color($wz-lime, 6) !default;
+$wz-lime-900: shade-color($wz-lime, 8) !default;
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$border-radius:               .5rem !default; //changed
+$border-radius-sm:            .4rem !default; //changed
+$border-radius-lg:            .65rem !default; //changed
+
+$component-active-color:      $white !default;
+$component-active-bg:         $primary !default;
+$input-focus-border-color:    lighten($component-active-bg, 25%) !default;
+
+$form-switch-width-lg:               2.75em !default;
+$form-switch-height-lg:              1.5em !default;
+
+$form-switch-focus-color:             $input-focus-border-color !default;
+$form-switch-checked-color:           $component-active-color !default;
+$form-switch-color:                  rgba(0, 0, 0, .25) !default;
+
+
+$form-switch-icon-theme-checked:     url('data:image/svg+xml,<svg fill="#{$form-switch-checked-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 21C14.776 21 17.3114 19.737 18.9911 17.6675C19.2396 17.3613 18.9686 16.9141 18.5846 16.9872C14.2181 17.8188 10.2082 14.4709 10.2082 10.063C10.2082 7.52398 11.5674 5.18914 13.7765 3.93199C14.117 3.73821 14.0314 3.22194 13.6444 3.15047C13.102 3.05045 12.5516 3.00008 12 3C7.03211 3 3 7.02578 3 12C3 16.9679 7.02578 21 12 21Z"/></svg>') !default;
+$form-switch-icon-check-bg:          url('data:image/svg+xml,<svg fill="#{$form-switch-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47581 2 2 6.47581 2 12C2 17.5242 6.47581 22 12 22C17.5242 22 22 17.5242 22 12C22 6.47581 17.5242 2 12 2ZM16.9032 14.625C17.0927 14.8145 17.0927 15.121 16.9032 15.3105L15.3065 16.9032C15.1169 17.0927 14.8105 17.0927 14.621 16.9032L12 14.2581L9.375 16.9032C9.18548 17.0927 8.87903 17.0927 8.68952 16.9032L7.09677 15.3065C6.90726 15.1169 6.90726 14.8105 7.09677 14.621L9.74194 12L7.09677 9.375C6.90726 9.18548 6.90726 8.87903 7.09677 8.68952L8.69355 7.09274C8.88306 6.90323 9.18952 6.90323 9.37903 7.09274L12 9.74194L14.625 7.09677C14.8145 6.90726 15.121 6.90726 15.3105 7.09677L16.9073 8.69355C17.0968 8.88306 17.0968 9.18952 16.9073 9.37903L14.2581 12L16.9032 14.625Z"/></svg>') !default;
+$form-switch-icon-check-focus:       url('data:image/svg+xml,<svg fill="#{$form-switch-focus-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47581 2 2 6.47581 2 12C2 17.5242 6.47581 22 12 22C17.5242 22 22 17.5242 22 12C22 6.47581 17.5242 2 12 2ZM16.9032 14.625C17.0927 14.8145 17.0927 15.121 16.9032 15.3105L15.3065 16.9032C15.1169 17.0927 14.8105 17.0927 14.621 16.9032L12 14.2581L9.375 16.9032C9.18548 17.0927 8.87903 17.0927 8.68952 16.9032L7.09677 15.3065C6.90726 15.1169 6.90726 14.8105 7.09677 14.621L9.74194 12L7.09677 9.375C6.90726 9.18548 6.90726 8.87903 7.09677 8.68952L8.69355 7.09274C8.88306 6.90323 9.18952 6.90323 9.37903 7.09274L12 9.74194L14.625 7.09677C14.8145 6.90726 15.121 6.90726 15.3105 7.09677L16.9073 8.69355C17.0968 8.88306 17.0968 9.18952 16.9073 9.37903L14.2581 12L16.9032 14.625Z"/></svg>') !default;
+$form-switch-icon-check-checked:     url('data:image/svg+xml,<svg fill="#{$form-switch-checked-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12C22 17.5229 17.5229 22 12 22C6.47714 22 2 17.5229 2 12C2 6.47714 6.47714 2 12 2C17.5229 2 22 6.47714 22 12ZM10.8433 17.2949L18.2627 9.87556C18.5146 9.62363 18.5146 9.21512 18.2627 8.96319L17.3503 8.05081C17.0983 7.79883 16.6898 7.79883 16.4379 8.05081L10.3871 14.1015L7.56214 11.2766C7.3102 11.0246 6.90169 11.0246 6.64972 11.2766L5.73734 12.189C5.4854 12.4409 5.4854 12.8494 5.73734 13.1013L9.93089 17.2949C10.1829 17.5469 10.5913 17.5469 10.8433 17.2949V17.2949Z"/></svg>') !default;
+$form-check-transition:              background-image .15s ease-in-out, background-color .15s ease-in-out, background-position .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
