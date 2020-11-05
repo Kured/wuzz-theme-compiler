@@ -108,10 +108,10 @@ $input-btn-border-width:      2px !default;  //changed
 // Darkmode Forms
 $form-check-input-bg:                     $body-bg !default;
 $form-check-input-border:                 2px solid rgba(255, 255, 255, 0.25) !default;
+$form-check-input-width:             1.2em !default;
 
 $form-switch-width-lg:               2.75em !default;
 $form-switch-height-lg:              1.5em !default;
-
 $form-switch-focus-color:             $input-focus-border-color !default;
 $form-switch-checked-color:           $component-active-color !default;
 $form-switch-color:                  rgba(255, 255, 255, 0.25) !default;
