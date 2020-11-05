@@ -112,7 +112,7 @@ $form-check-input-width:             1.2em !default;
 
 
 $form-check-input-checked-color:     $component-active-color !default;
-$form-check-input-checked-bg-image:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>") !default;
+$form-check-input-checked-bg-image:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='2.5 2.5 16 16'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>") !default;
 
 $form-switch-width-lg:               2.75em !default;
 $form-switch-height-lg:              1.5em !default;
@@ -126,6 +126,16 @@ $form-switch-icon-check-bg:          url('data:image/svg+xml,<svg fill="#{$form-
 $form-switch-icon-check-focus:       url('data:image/svg+xml,<svg fill="#{$form-switch-focus-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47581 2 2 6.47581 2 12C2 17.5242 6.47581 22 12 22C17.5242 22 22 17.5242 22 12C22 6.47581 17.5242 2 12 2ZM16.9032 14.625C17.0927 14.8145 17.0927 15.121 16.9032 15.3105L15.3065 16.9032C15.1169 17.0927 14.8105 17.0927 14.621 16.9032L12 14.2581L9.375 16.9032C9.18548 17.0927 8.87903 17.0927 8.68952 16.9032L7.09677 15.3065C6.90726 15.1169 6.90726 14.8105 7.09677 14.621L9.74194 12L7.09677 9.375C6.90726 9.18548 6.90726 8.87903 7.09677 8.68952L8.69355 7.09274C8.88306 6.90323 9.18952 6.90323 9.37903 7.09274L12 9.74194L14.625 7.09677C14.8145 6.90726 15.121 6.90726 15.3105 7.09677L16.9073 8.69355C17.0968 8.88306 17.0968 9.18952 16.9073 9.37903L14.2581 12L16.9032 14.625Z"/></svg>') !default;
 $form-switch-icon-check-checked:     url('data:image/svg+xml,<svg fill="#{$form-switch-checked-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12C22 17.5229 17.5229 22 12 22C6.47714 22 2 17.5229 2 12C2 6.47714 6.47714 2 12 2C17.5229 2 22 6.47714 22 12ZM10.8433 17.2949L18.2627 9.87556C18.5146 9.62363 18.5146 9.21512 18.2627 8.96319L17.3503 8.05081C17.0983 7.79883 16.6898 7.79883 16.4379 8.05081L10.3871 14.1015L7.56214 11.2766C7.3102 11.0246 6.90169 11.0246 6.64972 11.2766L5.73734 12.189C5.4854 12.4409 5.4854 12.8494 5.73734 13.1013L9.93089 17.2949C10.1829 17.5469 10.5913 17.5469 10.8433 17.2949V17.2949Z"/></svg>') !default;
 $form-check-transition:              background-image .15s ease-in-out, background-color .15s ease-in-out, background-position .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+$form-range-thumb-width:                   1.2rem !default;
+$form-range-thumb-height:                  $form-range-thumb-width !default;
+$form-range-thumb-bg:                      $component-active-bg !default;
+$form-range-thumb-border:                  0 !default;
+$form-range-thumb-border-radius:           1rem !default;
+$form-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .1) !default;
+$form-range-thumb-active-bg:               $component-active-bg !default;
+$form-range-thumb-disabled-bg:             $gray-500 !default;
+$form-range-thumb-transition:              background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
 // Darkmode List group
 $list-group-color:                  null !default;
