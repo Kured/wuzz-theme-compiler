@@ -102,7 +102,7 @@ $border-radius-lg:            .65rem !default; //changed
 
 $component-active-color:      $white !default;
 $component-active-bg:         $primary !default;
-$input-focus-border-color:    lighten($white, 25%) !default;
+$input-focus-border-color:    darken($white, 25%) !default;
 $input-btn-border-width:      2px !default;  //changed
 
 // Darkmode Forms
