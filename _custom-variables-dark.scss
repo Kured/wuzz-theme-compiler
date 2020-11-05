@@ -106,9 +106,13 @@ $input-focus-border-color:    darken($white, 25%) !default;
 $input-btn-border-width:      2px !default;  //changed
 
 // Darkmode Forms
-$form-check-input-bg:                     $body-bg !default;
-$form-check-input-border:                 2px solid rgba(255, 255, 255, 0.25) !default;
+$form-check-input-bg:                $body-bg !default;
+$form-check-input-border:            2px solid rgba(255, 255, 255, 0.25) !default;
 $form-check-input-width:             1.2em !default;
+
+
+$form-check-input-checked-color:     $component-active-color !default;
+$form-check-input-checked-bg-image:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>") !default;
 
 $form-switch-width-lg:               2.75em !default;
 $form-switch-height-lg:              1.5em !default;

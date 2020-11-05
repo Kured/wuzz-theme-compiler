@@ -110,13 +110,14 @@ $form-check-input-bg:                $body-bg !default;
 $form-check-input-border:            2px solid rgba(0, 0, 0, 0.25) !default;
 $form-check-input-width:             1.2em !default;
 
+$form-check-input-checked-color:     $component-active-color !default;
+$form-check-input-checked-bg-image:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='2 2 16 16'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>") !default;
 
 $form-switch-width-lg:               2.75em !default;
 $form-switch-height-lg:              1.5em !default;
 $form-switch-focus-color:            $input-focus-border-color !default;
 $form-switch-checked-color:          $component-active-color !default;
 $form-switch-color:                  rgba(0, 0, 0, .25) !default;
-
 
 $form-switch-icon-theme-checked:     url('data:image/svg+xml,<svg fill="#{$form-switch-checked-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 21C14.776 21 17.3114 19.737 18.9911 17.6675C19.2396 17.3613 18.9686 16.9141 18.5846 16.9872C14.2181 17.8188 10.2082 14.4709 10.2082 10.063C10.2082 7.52398 11.5674 5.18914 13.7765 3.93199C14.117 3.73821 14.0314 3.22194 13.6444 3.15047C13.102 3.05045 12.5516 3.00008 12 3C7.03211 3 3 7.02578 3 12C3 16.9679 7.02578 21 12 21Z"/></svg>') !default;
 $form-switch-icon-check-bg:          url('data:image/svg+xml,<svg fill="#{$form-switch-color}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47581 2 2 6.47581 2 12C2 17.5242 6.47581 22 12 22C17.5242 22 22 17.5242 22 12C22 6.47581 17.5242 2 12 2ZM16.9032 14.625C17.0927 14.8145 17.0927 15.121 16.9032 15.3105L15.3065 16.9032C15.1169 17.0927 14.8105 17.0927 14.621 16.9032L12 14.2581L9.375 16.9032C9.18548 17.0927 8.87903 17.0927 8.68952 16.9032L7.09677 15.3065C6.90726 15.1169 6.90726 14.8105 7.09677 14.621L9.74194 12L7.09677 9.375C6.90726 9.18548 6.90726 8.87903 7.09677 8.68952L8.69355 7.09274C8.88306 6.90323 9.18952 6.90323 9.37903 7.09274L12 9.74194L14.625 7.09677C14.8145 6.90726 15.121 6.90726 15.3105 7.09677L16.9073 8.69355C17.0968 8.88306 17.0968 9.18952 16.9073 9.37903L14.2581 12L16.9032 14.625Z"/></svg>') !default;
