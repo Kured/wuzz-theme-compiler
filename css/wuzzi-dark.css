@@ -4715,12 +4715,12 @@ progress {
 
 .list-group-item-action {
   width: 100%;
-  color: #495057;
+  color: #dee2e6;
   text-align: inherit;
 }
 .list-group-item-action:hover, .list-group-item-action:focus {
   z-index: 1;
-  color: #495057;
+  color: #dee2e6;
   text-decoration: none;
   background-color: #222938;
 }
