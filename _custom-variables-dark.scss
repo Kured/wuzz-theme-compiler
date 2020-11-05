@@ -102,8 +102,9 @@ $border-radius-lg:            .65rem !default; //changed
 
 $component-active-color:      $white !default;
 $component-active-bg:         $primary !default;
-$input-focus-border-color:    lighten($component-active-bg, 25%) !default;
+$input-focus-border-color:    lighten($white, 25%) !default;
 
+// Darkmode Forms
 $form-check-input-bg:                     $body-bg !default;
 $form-check-input-border:                 1px solid rgba(255, 255, 255, 0.25) !default;
 
