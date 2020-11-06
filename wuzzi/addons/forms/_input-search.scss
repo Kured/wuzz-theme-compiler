@@ -2,8 +2,6 @@
 .search-outline { padding: 0.25rem 3rem 0.25rem 1rem; }
 .search-outline-lg { padding: 0.25rem 3.5rem 0.25rem 1.25rem!important; }
 .search-outline, .search-outline-lg, .search-outline-sm{
-  border-color: #ffffff;
   background: transparent!important;
   border-width: 2px !important;
 }
-.search-outline:focus, .search-outline-lg:focus, .search-outline-sm:focus { border-color: #ffffff; }
