@@ -16,10 +16,18 @@
     100% { transform: rotate(0deg) }
  }
 
-.search-expand {
+ .search-expand {
   width: 10rem;
   transition: width ease 0.2s;
 }
 .search-expand:hover, .search-expand:focus-within {
   width: 16rem;
+}
+
+.input-icon-scale-focus > div > i {
+transition: all ease 0.2s;
+}
+
+.input-icon-scale-focus:focus-within > div > i, .input-icon-scale-hover:hover > div > i {
+transform: scale(1.5);
 }
