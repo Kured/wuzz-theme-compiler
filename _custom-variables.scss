@@ -133,3 +133,9 @@ $form-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .1) !defa
 $form-range-thumb-active-bg:               $component-active-bg !default;
 $form-range-thumb-disabled-bg:             $gray-500 !default;
 $form-range-thumb-transition:              background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          500 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
