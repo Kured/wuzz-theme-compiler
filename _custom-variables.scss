@@ -95,9 +95,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 $body-bg:                   $white !default;
 $body-color:                $gray-900 !default;
 
-$border-radius:                      .5rem !default; //changed
-$border-radius-sm:                   .4rem !default; //changed
-$border-radius-lg:                   .65rem !default; //changed
+$border-radius:                      .4rem !default; //changed
+$border-radius-sm:                   .35rem !default; //changed
+$border-radius-lg:                   .5rem !default; //changed
 
 $component-active-color:             $white !default;
 $component-active-bg:                $primary !default;
