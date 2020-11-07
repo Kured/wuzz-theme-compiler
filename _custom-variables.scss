@@ -139,3 +139,7 @@ $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
 $font-weight-bold:            600 !default;
 $font-weight-bolder:          bolder !default;
+
+$link-color:                              $gray-600 !default;
+$link-decoration:                         none !default;
+$link-hover-color:                        lighten($link-color, 25%) !default;

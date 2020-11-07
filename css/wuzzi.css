@@ -182,11 +182,11 @@ sup {
 }
 
 a {
-  color: #ff2c5f;
-  text-decoration: underline;
+  color: #6c757d;
+  text-decoration: none;
 }
 a:hover {
-  color: #df0036;
+  color: #afb5ba;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2840,7 +2840,6 @@ progress {
   line-height: 1.5;
   color: #101520;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
@@ -3200,11 +3199,11 @@ progress {
 
 .btn-link {
   font-weight: 400;
-  color: #ff2c5f;
-  text-decoration: underline;
+  color: #6c757d;
+  text-decoration: none;
 }
 .btn-link:hover {
-  color: #df0036;
+  color: #afb5ba;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3461,7 +3460,6 @@ progress {
   font-weight: 400;
   color: #101520;
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -3636,7 +3634,6 @@ progress {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3734,7 +3731,6 @@ progress {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  text-decoration: none;
   white-space: nowrap;
 }
 .navbar-nav {
@@ -4211,8 +4207,7 @@ progress {
 .page-link {
   position: relative;
   display: block;
-  color: #ff2c5f;
-  text-decoration: none;
+  color: #6c757d;
   background-color: #fff;
   border: 0 solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4224,13 +4219,13 @@ progress {
 }
 .page-link:hover {
   z-index: 2;
-  color: #df0036;
+  color: #afb5ba;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 .page-link:focus {
   z-index: 3;
-  color: #df0036;
+  color: #afb5ba;
   background-color: #e9ecef;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(255, 44, 95, 0.25);
@@ -4465,7 +4460,6 @@ progress {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  text-decoration: none;
   background-color: #fff;
   border: 0 solid rgba(0, 0, 0, 0.125);
 }
