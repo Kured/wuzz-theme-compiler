@@ -182,7 +182,7 @@ sup {
 }
 
 a {
-  color: #ced4da;
+  color: #a2a6b4;
   text-decoration: none;
 }
 a:hover {
@@ -2553,13 +2553,13 @@ progress {
   pointer-events: none;
 }
 .form-range:disabled::-webkit-slider-thumb {
-  background-color: #adb5bd;
+  background-color: #a2a6b4;
 }
 .form-range:disabled::-moz-range-thumb {
-  background-color: #adb5bd;
+  background-color: #a2a6b4;
 }
 .form-range:disabled::-ms-thumb {
-  background-color: #adb5bd;
+  background-color: #a2a6b4;
 }
 
 .input-group {
@@ -3199,7 +3199,7 @@ progress {
 
 .btn-link {
   font-weight: 400;
-  color: #ced4da;
+  color: #a2a6b4;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -3515,7 +3515,7 @@ progress {
   background-color: #ff2c5f;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
-  color: #adb5bd;
+  color: #a2a6b4;
 }
 .dropdown-menu-dark .dropdown-divider {
   border-color: rgba(0, 0, 0, 0.15);
@@ -3524,7 +3524,7 @@ progress {
   color: #dee2e6;
 }
 .dropdown-menu-dark .dropdown-header {
-  color: #adb5bd;
+  color: #a2a6b4;
 }
 
 .btn-group,
@@ -4207,7 +4207,7 @@ progress {
 .page-link {
   position: relative;
   display: block;
-  color: #ced4da;
+  color: #a2a6b4;
   background-color: #fff;
   border: 0 solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
