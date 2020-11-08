@@ -7,7 +7,7 @@
   --bs-success: #37c72c;
   --bs-warning: #ffc102;
   --bs-light: #fff;
-  --bs-dark: #0b0d12;
+  --bs-dark: #0f1319;
   --bs-lights: #dee2e6;
   --bs-darks: #222938;
   --bs-font-sans-serif: "Poppins", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -27,7 +27,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #0b0d12;
+  color: #0f1319;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -229,7 +229,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
-  background-color: #0b0d12;
+  background-color: #0f1319;
   border-radius: 0.5rem;
 }
 kbd kbd {
@@ -1894,15 +1894,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #0b0d12;
+  --bs-table-striped-color: #0f1319;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #0b0d12;
+  --bs-table-active-color: #0f1319;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #0b0d12;
+  --bs-table-hover-color: #0f1319;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #0b0d12;
+  color: #0f1319;
   vertical-align: top;
   border-color: #dee2e6;
 }
@@ -2041,15 +2041,15 @@ progress {
 }
 
 .table-dark {
-  --bs-table-bg: #0b0d12;
-  --bs-table-striped-bg: #17191e;
+  --bs-table-bg: #0f1319;
+  --bs-table-striped-bg: #1b1f25;
   --bs-table-striped-color: #fff;
-  --bs-table-active-bg: #23252a;
+  --bs-table-active-bg: #272b30;
   --bs-table-active-color: #fff;
-  --bs-table-hover-bg: #1d1f24;
+  --bs-table-hover-bg: #21252a;
   --bs-table-hover-color: #fff;
   color: #fff;
-  border-color: #23252a;
+  border-color: #272b30;
 }
 
 .table-responsive {
@@ -2160,7 +2160,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #0b0d12;
+  color: #0f1319;
   background-color: transparent;
   border: solid transparent;
   border-width: 2px 0;
@@ -2838,7 +2838,7 @@ progress {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #0b0d12;
+  color: #0f1319;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -2856,7 +2856,7 @@ progress {
   }
 }
 .btn:hover {
-  color: #0b0d12;
+  color: #0f1319;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -3019,19 +3019,19 @@ progress {
 
 .btn-dark {
   color: #fff;
-  background-color: #0b0d12;
-  border-color: #0b0d12;
+  background-color: #0f1319;
+  border-color: #0f1319;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: black;
+  background-color: #010101;
   border-color: black;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: black;
+  background-color: #010101;
   border-color: black;
-  box-shadow: 0 0 0 0.25rem rgba(48, 49, 54, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(51, 54, 60, 0.5);
 }
 .btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
@@ -3039,12 +3039,12 @@ progress {
   border-color: black;
 }
 .btn-check:checked + .btn-dark:focus, .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus, .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(48, 49, 54, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(51, 54, 60, 0.5);
 }
 .btn-dark:disabled, .btn-dark.disabled {
   color: #fff;
-  background-color: #0b0d12;
-  border-color: #0b0d12;
+  background-color: #0f1319;
+  border-color: #0f1319;
 }
 
 .btn-outline-primary {
@@ -3173,27 +3173,27 @@ progress {
 }
 
 .btn-outline-dark {
-  color: #0b0d12;
-  border-color: #0b0d12;
+  color: #0f1319;
+  border-color: #0f1319;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #0b0d12;
-  border-color: #0b0d12;
+  background-color: #0f1319;
+  border-color: #0f1319;
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
-  box-shadow: 0 0 0 0.25rem rgba(11, 13, 18, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(15, 19, 25, 0.5);
 }
 .btn-check:checked + .btn-outline-dark, .btn-check:active + .btn-outline-dark, .btn-outline-dark:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
   color: #fff;
-  background-color: #0b0d12;
-  border-color: #0b0d12;
+  background-color: #0f1319;
+  border-color: #0f1319;
 }
 .btn-check:checked + .btn-outline-dark:focus, .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(11, 13, 18, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(15, 19, 25, 0.5);
 }
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
-  color: #0b0d12;
+  color: #0f1319;
   background-color: transparent;
 }
 
@@ -3290,7 +3290,7 @@ progress {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #0b0d12;
+  color: #0f1319;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3458,14 +3458,14 @@ progress {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #0b0d12;
+  color: #0f1319;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #010202;
+  color: #050709;
   background-color: #e9ecef;
 }
 .dropdown-item.active, .dropdown-item:active {
@@ -3495,12 +3495,12 @@ progress {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1rem;
-  color: #0b0d12;
+  color: #0f1319;
 }
 
 .dropdown-menu-dark {
   color: #dee2e6;
-  background-color: #0b0d12;
+  background-color: #0f1319;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .dropdown-menu-dark .dropdown-item {
@@ -4379,9 +4379,9 @@ progress {
 }
 
 .alert-dark {
-  color: #060709;
-  background-color: #cecfd0;
-  border-color: #bbbbbd;
+  color: #080a0d;
+  background-color: #cfd0d1;
+  border-color: #bcbdbf;
 }
 .alert-dark .alert-link {
   color: black;
@@ -4452,7 +4452,7 @@ progress {
   background-color: #e9ecef;
 }
 .list-group-item-action:active {
-  color: #0b0d12;
+  color: #0f1319;
   background-color: #e9ecef;
 }
 
@@ -4714,17 +4714,17 @@ progress {
 }
 
 .list-group-item-dark {
-  color: #060709;
-  background-color: #bbbbbd;
+  color: #080a0d;
+  background-color: #bcbdbf;
 }
 .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
-  color: #060709;
-  background-color: #aeaeb0;
+  color: #080a0d;
+  background-color: #afb0b3;
 }
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
-  background-color: #060709;
-  border-color: #060709;
+  background-color: #080a0d;
+  border-color: #080a0d;
 }
 
 .btn-close {
@@ -5342,7 +5342,7 @@ progress {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #0b0d12;
+  color: #0f1319;
 }
 
 .carousel {
@@ -5811,7 +5811,7 @@ progress {
 }
 
 .border-dark {
-  border-color: #0b0d12 !important;
+  border-color: #0f1319 !important;
 }
 
 .border-lights {
@@ -6541,7 +6541,7 @@ progress {
 }
 
 .text-dark {
-  color: #0b0d12 !important;
+  color: #0f1319 !important;
 }
 
 .text-lights {
@@ -6557,7 +6557,7 @@ progress {
 }
 
 .text-body {
-  color: #0b0d12 !important;
+  color: #0f1319 !important;
 }
 
 .text-muted {
@@ -6613,7 +6613,7 @@ progress {
 }
 
 .bg-dark {
-  background-color: #0b0d12 !important;
+  background-color: #0f1319 !important;
 }
 
 .bg-lights {
@@ -9943,7 +9943,7 @@ progress {
 }
 
 .link-dark {
-  color: #0b0d12;
+  color: #0f1319;
 }
 .link-dark:hover, .link-dark:focus {
   color: black;
@@ -10329,7 +10329,7 @@ progress {
 }
 
 .btn-reveal-dark:active {
-  box-shadow: 0 12px 24px -8px rgba(11, 13, 18, 0.5) !important;
+  box-shadow: 0 12px 24px -8px rgba(15, 19, 25, 0.5) !important;
   transform: translateY(-3px);
 }
 
@@ -10384,7 +10384,7 @@ progress {
 }
 
 .elevation-dark {
-  box-shadow: 0 16px 24px -8px rgba(11, 13, 18, 0.5) !important;
+  box-shadow: 0 16px 24px -8px rgba(15, 19, 25, 0.5) !important;
 }
 
 .btn-elevation-primary:active {
@@ -10443,7 +10443,7 @@ progress {
 }
 
 .btn-elevation-dark {
-  box-shadow: 0 12px 24px -8px rgba(11, 13, 18, 0.5) !important;
+  box-shadow: 0 12px 24px -8px rgba(15, 19, 25, 0.5) !important;
   transition: all 0.15s ease;
 }
 
