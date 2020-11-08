@@ -145,3 +145,17 @@ $font-weight-bolder:          bolder !default;
 $link-color:                              $gray-500 !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        $white !default;
+
+// Close
+$btn-close-width:            1em !default;
+$btn-close-height:           $btn-close-width !default;
+$btn-close-padding-x:        .25em !default;
+$btn-close-padding-y:        $btn-close-padding-x !default;
+$btn-close-color:            $black !default;
+$btn-close-bg:               none !default;
+$btn-close-focus-shadow:     none !default;
+$btn-close-opacity:          .5 !default;
+$btn-close-hover-opacity:    .75 !default;
+$btn-close-focus-opacity:    1 !default;
+$btn-close-disabled-opacity: .25 !default;
+$btn-close-white-filter:     invert(1) grayscale(100%) brightness(200%) !default;
