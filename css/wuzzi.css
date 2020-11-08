@@ -3296,7 +3296,7 @@ progress {
   background-color: #fff;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.4rem;
+  border-radius: 1rem;
 }
 
 .dropdown-menu-left {
@@ -3466,7 +3466,7 @@ progress {
 }
 .dropdown-item:hover, .dropdown-item:focus {
   color: #010202;
-  background-color: #f8f9fa;
+  background-color: #e9ecef;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -3500,7 +3500,7 @@ progress {
 
 .dropdown-menu-dark {
   color: #dee2e6;
-  background-color: #222938;
+  background-color: #0b0d12;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .dropdown-menu-dark .dropdown-item {
@@ -3508,7 +3508,7 @@ progress {
 }
 .dropdown-menu-dark .dropdown-item:hover, .dropdown-menu-dark .dropdown-item:focus {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #222938;
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
