@@ -230,7 +230,7 @@ kbd {
   font-size: 0.875em;
   color: #fff;
   background-color: #0b0d12;
-  border-radius: 0.35rem;
+  border-radius: 0.5rem;
 }
 kbd kbd {
   padding: 0;
@@ -2174,14 +2174,14 @@ progress {
   min-height: calc(1.5em + 0.5rem + 4px);
   padding: 0.25rem 0.75rem;
   font-size: 0.875rem;
-  border-radius: 0.35rem;
+  border-radius: 0.5rem;
 }
 
 .form-control-lg {
   min-height: calc(1.5em + 1rem + 4px);
   padding: 0.5rem 1.25rem;
   font-size: 1.25rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .form-control-color {
@@ -2630,7 +2630,7 @@ progress {
 .input-group-lg > .btn {
   padding: 0.5rem 1.25rem;
   font-size: 1.25rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .input-group-sm > .form-control {
@@ -2647,7 +2647,7 @@ progress {
 .input-group-sm > .btn {
   padding: 0.25rem 0.75rem;
   font-size: 0.875rem;
-  border-radius: 0.35rem;
+  border-radius: 0.5rem;
 }
 
 .input-group-lg > .form-select,
@@ -3212,13 +3212,13 @@ progress {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1.25rem;
   font-size: 1.25rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.75rem;
   font-size: 0.875rem;
-  border-radius: 0.35rem;
+  border-radius: 0.5rem;
 }
 
 .btn-block {
@@ -4265,12 +4265,12 @@ progress {
   font-size: 1.25rem;
 }
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .pagination-sm .page-link {
@@ -4278,12 +4278,12 @@ progress {
   font-size: 0.875rem;
 }
 .pagination-sm .page-item:first-child .page-link {
-  border-top-left-radius: 0.35rem;
-  border-bottom-left-radius: 0.35rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 .pagination-sm .page-item:last-child .page-link {
-  border-top-right-radius: 0.35rem;
-  border-bottom-right-radius: 0.35rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .badge {
@@ -4871,7 +4871,7 @@ progress {
   background-color: #fff;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   outline: 0;
 }
 
@@ -4898,8 +4898,8 @@ progress {
   justify-content: space-between;
   padding: 1rem 1rem;
   border-bottom: 0 solid #dee2e6;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 .modal-header .btn-close {
   padding: 0.5rem 0.5rem;
@@ -4925,8 +4925,8 @@ progress {
   justify-content: flex-end;
   padding: 0.75rem;
   border-top: 0 solid #dee2e6;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 .modal-footer > * {
   margin: 0.25rem;
@@ -5226,14 +5226,14 @@ progress {
   background-color: #fff;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 .popover .popover-arrow {
   position: absolute;
   display: block;
   width: 1rem;
   height: 0.5rem;
-  margin: 0 0.5rem;
+  margin: 0 1rem;
 }
 .popover .popover-arrow::before, .popover .popover-arrow::after {
   position: absolute;
@@ -5267,7 +5267,7 @@ progress {
   left: -0.5rem;
   width: 0.5rem;
   height: 1rem;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 .bs-popover-right > .popover-arrow::before, .bs-popover-auto[x-placement^=right] > .popover-arrow::before {
   left: 0;
@@ -5314,7 +5314,7 @@ progress {
   right: -0.5rem;
   width: 0.5rem;
   height: 1rem;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 .bs-popover-left > .popover-arrow::before, .bs-popover-auto[x-placement^=left] > .popover-arrow::before {
   right: 0;
@@ -5333,8 +5333,8 @@ progress {
   font-size: 1rem;
   background-color: #f7f7f7;
   border-bottom: 0 solid #ebebeb;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 .popover-header:empty {
   display: none;
@@ -6702,11 +6702,11 @@ progress {
 }
 
 .rounded-sm {
-  border-radius: 0.35rem !important;
+  border-radius: 0.5rem !important;
 }
 
 .rounded-lg {
-  border-radius: 0.5rem !important;
+  border-radius: 1rem !important;
 }
 
 .rounded-circle {
@@ -10491,7 +10491,7 @@ progress {
 .btn-fab-lg {
   height: 3rem;
   width: 3rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .btn-fab-effect {
@@ -10499,7 +10499,7 @@ progress {
 }
 
 .btn-fab-effect:hover {
-  border-radius: 0.4rem;
+  border-radius: 0.5rem;
 }
 
 .mw-0 {
