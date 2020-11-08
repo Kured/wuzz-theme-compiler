@@ -182,11 +182,11 @@ sup {
 }
 
 a {
-  color: #6c757d;
+  color: #ced4da;
   text-decoration: none;
 }
 a:hover {
-  color: #afb5ba;
+  color: #fff;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3199,11 +3199,11 @@ progress {
 
 .btn-link {
   font-weight: 400;
-  color: #6c757d;
+  color: #ced4da;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #afb5ba;
+  color: #fff;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4207,7 +4207,7 @@ progress {
 .page-link {
   position: relative;
   display: block;
-  color: #6c757d;
+  color: #ced4da;
   background-color: #fff;
   border: 0 solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4219,13 +4219,13 @@ progress {
 }
 .page-link:hover {
   z-index: 2;
-  color: #afb5ba;
+  color: #fff;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 .page-link:focus {
   z-index: 3;
-  color: #afb5ba;
+  color: #fff;
   background-color: #e9ecef;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(255, 44, 95, 0.25);
