@@ -104,6 +104,8 @@ $component-active-bg:                $primary !default;
 $input-focus-border-color:           lighten($component-active-bg, 25%) !default;
 $input-btn-border-width:             2px !default;  //changed
 
+$list-group-hover-bg:               $gray-200 !default;
+
 // Lightmode Forms
 $form-check-input-bg:                $body-bg !default;
 $form-check-input-border:            2px solid rgba(0, 0, 0, 0.25) !default;

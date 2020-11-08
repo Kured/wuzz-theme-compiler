@@ -4449,7 +4449,7 @@ progress {
   z-index: 1;
   color: #495057;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #e9ecef;
 }
 .list-group-item-action:active {
   color: #0b0d12;
