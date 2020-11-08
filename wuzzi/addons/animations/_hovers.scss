@@ -31,3 +31,10 @@ transition: all ease 0.2s;
 .input-icon-scale-focus:focus-within > div > i, .input-icon-scale-hover:hover > div > i {
 transform: scale(1.5);
 }
+
+.hover-rotate-90 {
+  transition: transform 0.3s ease;
+}
+.hover-rotate-90:hover {
+	transform: rotate(90deg);
+}

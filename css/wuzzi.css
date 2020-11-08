@@ -10295,6 +10295,14 @@ progress {
   transform: scale(1.5);
 }
 
+.hover-rotate-90 {
+  transition: transform 0.3s ease;
+}
+
+.hover-rotate-90:hover {
+  transform: rotate(90deg);
+}
+
 .btn-reveal-primary:active {
   box-shadow: 0 12px 24px -8px rgba(255, 44, 95, 0.5) !important;
   transform: translateY(-3px);
