@@ -10295,11 +10295,11 @@ progress {
   transform: scale(1.5);
 }
 
-.hover-rotate-90 {
+.hover-rotate-90 > i {
   transition: transform 0.3s ease;
 }
 
-.hover-rotate-90:hover {
+.hover-rotate-90:hover > i {
   transform: rotate(90deg);
 }
 
