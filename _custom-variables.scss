@@ -1,6 +1,7 @@
 // Color system
 $white:       #fff !default;
-$white-tran:  #ffffffb3 !default;
+$white-quarter:  #ffffffb3 !default;
+$white-half:  #ffffff7c !default;
 $gray-100:    #f8f9fa !default; //changed color
 $gray-200:    #e9ecef !default;
 $gray-300:    #dee2e6 !default;
@@ -10,7 +11,7 @@ $gray-600:    #6c757d  !default;
 $gray-700:    #495057 !default;
 $gray-800:    #222938 !default; //changed color #343a40
 $gray-900:    #101520 !default; //changed color #101520 old #0b0d12 too dark
-$black-tran:  #101520ad !default; //changed color
+$black-quarter:  #101520ad !default; //changed color
 $black:       #000 !default; //changed color
 
 $grays: (
@@ -95,22 +96,23 @@ $wz-lime-900: shade-color($wz-lime, 8) !default;
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-$body-bg:                           $white !default;
-$body-color:                        $gray-900 !default;
+$body-bg:                            $white !default;
+$body-color:                         $gray-900 !default;
 
 $border-radius:                      .4rem !default; //changed
 $border-radius-sm:                   .5rem !default; //changed
 $border-radius-lg:                   1rem !default; //changed
 
 // text
-$text-muted:                        $white-tran !default;
+$text-muted:                         $white-quarter !default;
 
 $component-active-color:             $white !default;
 $component-active-bg:                $primary !default;
 $input-focus-border-color:           lighten($component-active-bg, 25%) !default;
 $input-btn-border-width:             2px !default;  //changed
+$input-placeholder-color:            $white-half !default;
 
-$list-group-hover-bg:               $gray-200 !default;
+$list-group-hover-bg:                $gray-200 !default;
 
 // Lightmode Forms
 $form-check-input-bg:                $body-bg !default;
@@ -148,7 +150,7 @@ $font-weight-normal:          400 !default;
 $font-weight-bold:            600 !default;
 $font-weight-bolder:          bolder !default;
 
-$link-color:                              $white-tran !default;
+$link-color:                              $white-quarter !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        $white !default;
 
