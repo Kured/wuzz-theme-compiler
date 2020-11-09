@@ -10554,6 +10554,12 @@ progress {
   z-index: 4 !important;
 }
 
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .w-1 {
   width: 0.25rem;
 }
