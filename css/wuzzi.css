@@ -182,7 +182,7 @@ sup {
 }
 
 a {
-  color: #a2a6b4;
+  color: #ffffffb3;
   text-decoration: none;
 }
 a:hover {
@@ -3199,7 +3199,7 @@ progress {
 
 .btn-link {
   font-weight: 400;
-  color: #a2a6b4;
+  color: #ffffffb3;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -4207,7 +4207,7 @@ progress {
 .page-link {
   position: relative;
   display: block;
-  color: #a2a6b4;
+  color: #ffffffb3;
   background-color: #fff;
   border: 0 solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;

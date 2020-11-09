@@ -1,15 +1,17 @@
 // Color system
-$white:    #fff !default;
-$gray-100: #f8f9fa !default; //changed color
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #a2a6b4 !default; //#adb5bd
-$gray-600: #6c757d  !default;
-$gray-700: #495057 !default;
-$gray-800: #222938 !default; //changed color #343a40
-$gray-900: #101520 !default; //changed color #101520 old #0b0d12 too dark
-$black:    #000 !default; //changed color
+$white:       #fff !default;
+$white-tran:  #ffffffb3 !default;
+$gray-100:    #f8f9fa !default; //changed color
+$gray-200:    #e9ecef !default;
+$gray-300:    #dee2e6 !default;
+$gray-400:    #ced4da !default;
+$gray-500:    #a2a6b4 !default; //#adb5bd
+$gray-600:    #6c757d  !default;
+$gray-700:    #495057 !default;
+$gray-800:    #222938 !default; //changed color #343a40
+$gray-900:    #101520 !default; //changed color #101520 old #0b0d12 too dark
+$black-tran:  #101520ad !default; //changed color
+$black:       #000 !default; //changed color
 
 $grays: (
   "100": $gray-100,
@@ -51,6 +53,7 @@ $light:         $white !default;
 $lights:        $gray-300 !default;
 $dark:          $gray-900 !default;
 $darks:         $gray-800 !default;
+
 
 // Create your own map
 $custom-colors: (
@@ -142,7 +145,7 @@ $font-weight-normal:          400 !default;
 $font-weight-bold:            600 !default;
 $font-weight-bolder:          bolder !default;
 
-$link-color:                              $gray-500 !default;
+$link-color:                              $white-tran !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        $white !default;
 
