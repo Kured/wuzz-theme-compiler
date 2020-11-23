@@ -109,14 +109,14 @@ $text-muted:                         $white-quarter !default;
 $component-active-color:             $white !default;
 $component-active-bg:                $primary !default;
 $input-focus-border-color:           lighten($component-active-bg, 25%) !default;
-$input-btn-border-width:             2px !default;  //changed
+$input-btn-border-width:             1px !default;  //changed
 $input-placeholder-color:            $white-half !default;
 
 $list-group-hover-bg:                $gray-200 !default;
 
 // Lightmode Forms
 $form-check-input-bg:                $body-bg !default;
-$form-check-input-border:            2px solid rgba(0, 0, 0, 0.25) !default;
+$form-check-input-border:            1px solid rgba(0, 0, 0, 0.25) !default;
 $form-check-input-width:             1.2em !default;
 
 $form-check-input-checked-color:     $component-active-color !default;
@@ -173,6 +173,21 @@ $btn-close-hover-opacity:    .75 !default;
 $btn-close-focus-opacity:    1 !default;
 $btn-close-disabled-opacity: .25 !default;
 $btn-close-white-filter:     invert(1) grayscale(100%) brightness(200%) !default;
+
+
+
+// Cards
+
+$card-border-width:                 $border-width !default;
+$card-border-radius:                $border-radius-lg !default;
+$card-border-color:                 rgba($black, .125) !default;
+$card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
+$card-cap-bg:                       rgba($black, .03) !default;
+$card-cap-color:                    null !default;
+$card-height:                       null !default;
+$card-color:                        null !default;
+$card-bg:                           $white !default;
+
 
 // Dropdowns
 //
