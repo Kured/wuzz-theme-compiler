@@ -99,6 +99,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 $body-bg:                            $white !default;
 $body-color:                         $gray-900 !default;
 
+$border-width:                       0 !default; //changed from 1 to 0
+
 $border-radius:                      .4rem !default; //changed
 $border-radius-sm:                   .5rem !default; //changed
 $border-radius-lg:                   1rem !default; //changed
