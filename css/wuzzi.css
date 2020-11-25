@@ -10177,6 +10177,26 @@ progress {
   border-width: 2px !important;
 }
 
+.input-placeholder-dark::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #6c757d;
+}
+
+.input-placeholder-dark::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #6c757d;
+}
+
+.input-placeholder-dark:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #6c757d;
+}
+
+.input-placeholder-dark:-moz-placeholder {
+  /* Firefox 18- */
+  color: #6c757d;
+}
+
 .fade-in {
   -webkit-animation: fade-in 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -10487,17 +10507,20 @@ progress {
 
 .btn-fab {
   width: 2.5rem;
+  min-width: 2.5rem;
   height: 2.5rem;
   border-radius: 1.5rem;
 }
 
 .btn-fab-sm {
   width: 1.5rem;
+  min-width: 1.5rem;
   height: 1.5rem;
 }
 
 .btn-fab-lg {
   height: 3rem;
+  min-width: 3rem;
   width: 3rem;
   border-radius: 1rem;
 }

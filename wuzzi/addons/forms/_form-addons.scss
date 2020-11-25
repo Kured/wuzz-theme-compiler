@@ -3,3 +3,17 @@
 @import "form-control-color-circle";
 @import "input-icon";
 @import "input-search";
+
+
+.input-placeholder-dark::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $gray-600;
+}
+.input-placeholder-dark::-moz-placeholder { /* Firefox 19+ */
+    color: $gray-600;
+}
+.input-placeholder-dark:-ms-input-placeholder { /* IE 10+ */
+    color: $gray-600;
+}
+.input-placeholder-dark:-moz-placeholder { /* Firefox 18- */
+    color: $gray-600;
+}
