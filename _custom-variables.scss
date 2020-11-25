@@ -111,8 +111,11 @@ $text-muted:                         $white-quarter !default;
 $component-active-color:             $white !default;
 $component-active-bg:                $primary !default;
 $input-focus-border-color:           lighten($component-active-bg, 25%) !default;
-$input-btn-border-width:             1px !default;  //changed
+$input-btn-border-width:             0px !default;  //changed
 $input-placeholder-color:            $white-half !default;
+
+$input-border-color:                 $gray-400 !default;
+$input-border-width:                 $input-btn-border-width !default;
 
 $list-group-hover-bg:                $gray-200 !default;
 
