@@ -10545,6 +10545,14 @@ progress {
   min-width: 0% !important;
 }
 
+.rounded-top-lg {
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.rounded-bottom-lg {
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
 .border-transparent {
   border-color: #fff0 !important;
 }
