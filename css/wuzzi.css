@@ -10617,6 +10617,7 @@ progress {
 
 .w-4 {
   width: 1rem;
+  min-width: 1rem;
 }
 
 .w-5 {
@@ -10625,6 +10626,7 @@ progress {
 
 .w-6 {
   width: 1.5rem;
+  min-width: 1.5rem;
 }
 
 .w-8 {
