@@ -541,7 +541,7 @@ progress {
   padding: 0.25rem;
   background-color: #fff;
   border: 0 solid #dee2e6;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
   max-width: 100%;
   height: auto;
 }
@@ -2130,7 +2130,7 @@ progress {
   background-clip: padding-box;
   border: 0px solid #ced4da;
   appearance: none;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2190,11 +2190,11 @@ progress {
 }
 
 .form-control-color::-moz-color-swatch {
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .form-control-color::-webkit-color-swatch {
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .form-select {
@@ -2213,7 +2213,7 @@ progress {
   background-position: right 1rem center;
   background-size: 16px 12px;
   border: 0px solid #ced4da;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
   appearance: none;
 }
 .form-select:focus {
@@ -2382,7 +2382,7 @@ progress {
   display: flex;
   height: var(--bs-form-file-height);
   border-color: #ced4da;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .form-file-text {
@@ -2613,7 +2613,7 @@ progress {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 0px solid #ced4da;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .input-group-lg > .form-control {
@@ -2685,7 +2685,7 @@ progress {
   font-size: 0.875rem;
   color: #000;
   background-color: rgba(55, 199, 44, 0.9);
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .was-validated :valid ~ .valid-feedback,
@@ -2769,7 +2769,7 @@ progress {
   font-size: 0.875rem;
   color: #fff;
   background-color: rgba(255, 41, 62, 0.9);
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .was-validated :invalid ~ .invalid-feedback,
@@ -2847,7 +2847,7 @@ progress {
   border: 0px solid transparent;
   padding: 0.375rem 1rem;
   font-size: 1rem;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3653,8 +3653,8 @@ progress {
 .nav-tabs .nav-link {
   margin-bottom: 0;
   border: 0 solid transparent;
-  border-top-left-radius: 0.4rem;
-  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
@@ -3677,7 +3677,7 @@ progress {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -3764,7 +3764,7 @@ progress {
   line-height: 1;
   background-color: transparent;
   border: 0 solid transparent;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
   transition: box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4179,7 +4179,7 @@ progress {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #e9ecef;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .breadcrumb-item {
@@ -4252,12 +4252,12 @@ progress {
 }
 
 .page-item:first-child .page-link {
-  border-top-left-radius: 0.4rem;
-  border-bottom-left-radius: 0.4rem;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
 }
 .page-item:last-child .page-link {
-  border-top-right-radius: 0.4rem;
-  border-bottom-right-radius: 0.4rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
 }
 
 .pagination-lg .page-link {
@@ -4296,7 +4296,7 @@ progress {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 .badge:empty {
   display: none;
@@ -4312,7 +4312,7 @@ progress {
   padding: 1rem 1rem;
   margin-bottom: 1rem;
   border: 0 solid transparent;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .alert-heading {
@@ -4398,7 +4398,7 @@ progress {
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #e9ecef;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .progress-bar {
@@ -4437,7 +4437,7 @@ progress {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .list-group-item-action {
@@ -4494,11 +4494,11 @@ progress {
   flex-direction: row;
 }
 .list-group-horizontal > .list-group-item:first-child {
-  border-bottom-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.75rem;
   border-top-right-radius: 0;
 }
 .list-group-horizontal > .list-group-item:last-child {
-  border-top-right-radius: 0.4rem;
+  border-top-right-radius: 0.75rem;
   border-bottom-left-radius: 0;
 }
 .list-group-horizontal > .list-group-item.active {
@@ -4518,11 +4518,11 @@ progress {
     flex-direction: row;
   }
   .list-group-horizontal-sm > .list-group-item:first-child {
-    border-bottom-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.75rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-sm > .list-group-item:last-child {
-    border-top-right-radius: 0.4rem;
+    border-top-right-radius: 0.75rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-sm > .list-group-item.active {
@@ -4542,11 +4542,11 @@ progress {
     flex-direction: row;
   }
   .list-group-horizontal-md > .list-group-item:first-child {
-    border-bottom-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.75rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-md > .list-group-item:last-child {
-    border-top-right-radius: 0.4rem;
+    border-top-right-radius: 0.75rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-md > .list-group-item.active {
@@ -4566,11 +4566,11 @@ progress {
     flex-direction: row;
   }
   .list-group-horizontal-lg > .list-group-item:first-child {
-    border-bottom-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.75rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-lg > .list-group-item:last-child {
-    border-top-right-radius: 0.4rem;
+    border-top-right-radius: 0.75rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-lg > .list-group-item.active {
@@ -4590,11 +4590,11 @@ progress {
     flex-direction: row;
   }
   .list-group-horizontal-xl > .list-group-item:first-child {
-    border-bottom-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.75rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-xl > .list-group-item:last-child {
-    border-top-right-radius: 0.4rem;
+    border-top-right-radius: 0.75rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-xl > .list-group-item.active {
@@ -4614,11 +4614,11 @@ progress {
     flex-direction: row;
   }
   .list-group-horizontal-xxl > .list-group-item:first-child {
-    border-bottom-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.75rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-xxl > .list-group-item:last-child {
-    border-top-right-radius: 0.4rem;
+    border-top-right-radius: 0.75rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-xxl > .list-group-item.active {
@@ -4736,7 +4736,7 @@ progress {
   background: transparent none no-repeat center center/1em auto;
   background-clip: content-box;
   border: 0;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
   opacity: 0.5;
 }
 .btn-close:hover {
@@ -4767,7 +4767,7 @@ progress {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   opacity: 0;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 .toast:not(:last-child) {
   margin-bottom: 0.75rem;
@@ -4791,8 +4791,8 @@ progress {
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  border-top-left-radius: calc(0.4rem - 1px);
-  border-top-right-radius: calc(0.4rem - 1px);
+  border-top-left-radius: calc(0.75rem - 1px);
+  border-top-right-radius: calc(0.75rem - 1px);
 }
 .toast-header .btn-close {
   margin-right: -0.375rem;
@@ -5197,7 +5197,7 @@ progress {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 0.4rem;
+  border-radius: 0.75rem;
 }
 
 .popover {
@@ -6698,7 +6698,7 @@ progress {
 }
 
 .rounded {
-  border-radius: 0.4rem !important;
+  border-radius: 0.75rem !important;
 }
 
 .rounded-sm {
@@ -6722,23 +6722,23 @@ progress {
 }
 
 .rounded-top {
-  border-top-left-radius: 0.4rem !important;
-  border-top-right-radius: 0.4rem !important;
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
 }
 
 .rounded-right {
-  border-top-right-radius: 0.4rem !important;
-  border-bottom-right-radius: 0.4rem !important;
+  border-top-right-radius: 0.75rem !important;
+  border-bottom-right-radius: 0.75rem !important;
 }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0.4rem !important;
-  border-bottom-left-radius: 0.4rem !important;
+  border-bottom-right-radius: 0.75rem !important;
+  border-bottom-left-radius: 0.75rem !important;
 }
 
 .rounded-left {
-  border-bottom-left-radius: 0.4rem !important;
-  border-top-left-radius: 0.4rem !important;
+  border-bottom-left-radius: 0.75rem !important;
+  border-top-left-radius: 0.75rem !important;
 }
 
 .visible {
