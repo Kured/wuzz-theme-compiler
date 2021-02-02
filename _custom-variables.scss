@@ -1,17 +1,17 @@
 // Color system
 $white:       #fff !default;
-$white-quarter:  #ffffffb3 !default;
+$white-quarter:  #ffffffa1 !default;
 $white-half:  #ffffff7c !default;
 $gray-100:    #f8f9fa !default; //changed color
 $gray-200:    #e9ecef !default;
-$gray-300:    #dee2e6 !default;
+$gray-300:    #f7f7fb !default;
 $gray-400:    #ced4da !default;
 $gray-500:    #a2a6b4 !default; //#adb5bd
-$gray-600:    #6c757d  !default;
+$gray-600:    #6c757d !default;
 $gray-700:    #495057 !default;
-$gray-800:    #222938 !default; //changed color #343a40
+$gray-800:    #1a202c !default; //changed color #343a40
 $gray-900:    #0d121b !default; //changed color #101520 old #0b0d12 too dark
-$black-quarter:  #101520ad !default; //changed color
+$black-quarter:#000000b3 !default; //changed color
 $black:       #000 !default; //changed color
 
 $grays: (
@@ -99,6 +99,25 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 $body-bg:                            $white !default;
 $body-color:                         $gray-900 !default;
 
+// $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
+// $font-size-base effects the font size of the body text
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            600 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+
+$line-height-base:            1.5 !default;
+$line-height-sm:              1.25 !default;
+$line-height-lg:              2 !default;
+
 $border-width:                       0 !default; //changed from 1 to 0
 
 $border-radius:                      .75rem !default; //changed
@@ -111,8 +130,35 @@ $text-muted:                         $white-quarter !default;
 $component-active-color:             $white !default;
 $component-active-bg:                $primary !default;
 $input-focus-border-color:           lighten($component-active-bg, 25%) !default;
-$input-btn-border-width:             0px !default;  //changed
+
 $input-placeholder-color:            $white-half !default;
+
+// Btn
+$input-btn-padding-y:         .375rem !default;
+$input-btn-padding-x:         1rem !default; 
+$input-btn-font-family:       null !default;
+$input-btn-font-size:         $font-size-base !default;
+$input-btn-line-height:       $line-height-base !default;
+
+$input-btn-focus-width:         .25rem !default;
+$input-btn-focus-color-opacity: .25 !default;
+$input-btn-focus-color:         rgba($component-active-bg, $input-btn-focus-color-opacity) !default;
+$input-btn-focus-box-shadow:    0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+$input-btn-padding-y-sm:      .25rem !default;
+$input-btn-padding-x-sm:      .75rem !default;
+$input-btn-font-size-sm:      $font-size-sm !default;
+
+$input-btn-padding-y-lg:      .5rem !default;
+$input-btn-padding-x-lg:      1.25rem !default;
+$input-btn-font-size-lg:      $font-size-lg !default;
+
+$btn-focus-box-shadow:        none !default;
+$btn-box-shadow:              none !default;
+$btn-focus-width:             none !default;
+$btn-active-box-shadow:       none !default;
+
+$input-btn-border-width:             0px !default;  //changed
 
 $input-border-color:                 $gray-400 !default;
 $input-border-width:                 $input-btn-border-width !default;
@@ -149,21 +195,10 @@ $form-range-thumb-active-bg:               $component-active-bg !default;
 $form-range-thumb-disabled-bg:             $gray-500 !default;
 $form-range-thumb-transition:              background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
-$font-weight-lighter:         lighter !default;
-$font-weight-light:           300 !default;
-$font-weight-normal:          400 !default;
-$font-weight-bold:            600 !default;
-$font-weight-bolder:          bolder !default;
-
 $link-color:                              $white-quarter !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        $white !default;
 
-// Btn
-$btn-focus-box-shadow:        none !default;
-$btn-box-shadow:              none !default;
-$btn-focus-width:             none !default;
-$btn-active-box-shadow:       none !default;
 
 // Close
 $btn-close-width:            1em !default;
