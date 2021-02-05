@@ -8,6 +8,7 @@
 @import "./node_modules/bootstrap/scss/mixins";
 
 $theme-colors: map-remove($theme-colors, "info" , "danger");
+$theme-colors: map-remove($theme-colors, "dark" , "light", "darks", "lights");
 
 // Optional
 @import "./node_modules/bootstrap/scss/utilities";
@@ -15,7 +16,7 @@ $theme-colors: map-remove($theme-colors, "info" , "danger");
 @import "./node_modules/bootstrap/scss/reboot";
 @import "./node_modules/bootstrap/scss/type";
 
-$theme-colors: map-remove($theme-colors, "darks" , "lights");
+
 
 // Layout & components
 @import "./node_modules/bootstrap/scss/images";
@@ -51,6 +52,7 @@ $theme-colors: map-remove($theme-colors, "darks" , "lights");
 @import "./node_modules/bootstrap/scss/helpers";
 
 // Custom Components
+@import "mixins-override";
 @import "./wuzzi/addons/forms/form-addons";
 @import "./wuzzi/addons/animations/animations";
 @import "./wuzzi/addons/style/style-addons";

@@ -113,8 +113,8 @@ $enable-deprecation-messages: true !default;
 $enable-important-utilities:  false !default;
 
 
-$body-bg:                           null !default;
-$body-color:                        null !default;
+$body-bg:                            $white !default;
+$body-color:                         $gray-900 !default;
 
 // $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
 // $font-size-base effects the font size of the body text
@@ -161,8 +161,8 @@ $input-btn-line-height:       $line-height-base !default;
 
 $input-btn-focus-width:         .25rem !default;
 $input-btn-focus-color-opacity: .25 !default;
-$input-btn-focus-color:         unset !default;
-$input-btn-focus-box-shadow:    unset !default;
+$input-btn-focus-color:         rgba($component-active-bg, $input-btn-focus-color-opacity) !default;
+$input-btn-focus-box-shadow:    0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
 $input-btn-padding-y-sm:      .5rem !default;
 $input-btn-padding-x-sm:      1rem !default;
@@ -172,35 +172,17 @@ $input-btn-padding-y-lg:      1rem !default;
 $input-btn-padding-x-lg:      2rem !default;
 $input-btn-font-size-lg:      $font-size-lg !default;
 
-$input-btn-border-width:             0px !default;  //changed
-
-$input-bg:                              $white !default;
-$input-disabled-bg:                     $gray-200 !default;
-$input-disabled-border-color:           null !default;
-
-$input-color:                           inherit !default;
-$input-border-color:                    transparent !default;
-$input-border-width:                    null !default;
-
-$input-focus-bg:                        inherit !default;
-$input-focus-border-color:              unset !default;
-$input-focus-color:                     inherit !default;
-$input-focus-width:                     $input-btn-focus-width !default;
-$input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
-
-$input-border-color:                 $gray-400 !default;
-$input-border-width:                 $input-btn-border-width !default;
-
-$input-placeholder-color:               $gray-600 !default;
-$input-plaintext-color:                 $body-color !default;
-
-$list-group-hover-bg:                $gray-200 !default;
-
 $btn-focus-box-shadow:        none !default;
 $btn-box-shadow:              none !default;
 $btn-focus-width:             none !default;
 $btn-active-box-shadow:       none !default;
 
+$input-btn-border-width:             0px !default;  //changed
+
+$input-border-color:                 $gray-400 !default;
+$input-border-width:                 $input-btn-border-width !default;
+
+$list-group-hover-bg:                $gray-200 !default;
 
 // Lightmode Forms
 $form-check-input-bg:                $body-bg !default;
